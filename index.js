@@ -10,8 +10,8 @@
 
 function addition() {
 
-    var input1 = document.getElementsByName('x');
-    var input2 = document.getElementsByName('b');
+    var input1 = document.getElementsByName('matrix1');
+    var input2 = document.getElementsByName('matrix2');
     var output = document.getElementsByName('op');
 
     //var sum1 = sum2 = 0;
