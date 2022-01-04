@@ -1,0 +1,45 @@
+form{
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+    
+    
+}
+
+fieldset{
+
+    padding: 20px;
+}
+
+#lbl{
+    border: 10px;
+}
+#otp{
+
+    
+    display: inline-block;
+    position: absolute;
+    margin-top: 10px;
+
+    border: 1px solid black;
+
+    margin-left: 30px;
+    margin-top: 60px;
+    padding: 0px 20px 10px 20px;
+
+    text-align: center;
+}
+#btn
+{
+    margin-top: 20px;
+}
+
+input{
+    margin: 4px;
+}
+
+p
+{
+    font-weight: bold;
+    font-size: larger;
+}

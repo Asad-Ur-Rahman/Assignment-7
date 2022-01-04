@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 7</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form onsubmit="addition(); return false">
+        <fieldset>
+            <legend>Matrix addition</legend>
+
+
+            <div>
+                <label for="" id="lbl">Matrix 1:</label><br>
+                <input type="number" name="x" id="">
+                <input type="number" name="x" id="">
+                <input type="number" name="x" id=""><br>
+                <input type="number" name="x" id="">
+                <input type="number" name="x" id="">
+                <input type="number" name="x" id=""><br>
+                <input type="number" name="x" id="">
+                <input type="number" name="x" id="">
+                <input type="number" name="x" id=""><br>
+
+
+            </div>
+            <br><br>
+            <div>
+                <label for="" id="lbl">Matrix 2: </label><br>
+                <input type="number" name="b" id="">
+                <input type="number" name="b" id="">
+                <input type="number" name="b" id=""><br>
+                <input type="number" name="b" id="">
+                <input type="number" name="b" id="">
+                <input type="number" name="b" id=""><br>
+                <input type="number" name="b" id="">
+                <input type="number" name="b" id="">
+                <input type="number" name="b" id="">
+
+            </div>
+
+            <input type="submit" value="Add" onclick="addition()" id="btn"><br>
+
+        </fieldset>
+    </form>
+    <div id="otp">
+
+        <p>Result:</p>
+        <input name="op" id="" readonly>
+        <input name="op" id="" readonly>
+        <input name="op" id="" readonly><br>
+        <input name="op" id="" readonly>
+        <input name="op" id="" readonly>
+        <input name="op" id="" readonly><br>
+        <input name="op" id="" readonly>
+        <input name="op" id="" readonly>
+        <input name="op" id="" readonly>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
