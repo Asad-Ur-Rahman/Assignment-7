@@ -14,6 +14,9 @@ function addition() {
     var input2 = document.getElementsByName('matrix2');
     var output = document.getElementsByName('op');
 
+    // console.log(typeof(input1))
+    // console.log(input1)
+
     //var sum1 = sum2 = 0;
 
     // var m1 = [];
